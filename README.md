@@ -35,7 +35,7 @@ Install dependencies
 Start the UI application
 
 ```bash
-  npm run start
+  npm start
 ```
 
 Go to the project directory
@@ -95,10 +95,20 @@ To run both end to end test cases for both UI and API, go to <project_dir>\Palin
 ```
 ## TestResults
 
-*   API Unit TestResults - 
-*   UI Unit TestResults -
-*   API E2E TestResults -
-*   UI E2E TestResults - 
+All the test results including HTML reports and screenshots are present in <project_dir>/TestResults
+
+*   API Unit TestResults
+    ![API Unit TestResults](TestResults/APIUnitTest.jpg)
+
+*   UI Unit TestResults
+    ![UI Unit TestResults](TestResults/UIUnitTest.jpg)
+
+*   API E2E TestResults
+    ![API E2E TestResults](TestResults/APIE2ETest.jpg)
+
+*   UI E2E TestResults
+    ![UI E2E TestResults](TestResults/UIE2ETest.jpg)
+
 ## Improvements In The Code
 
 * Added backend validation whether input is a valid number.

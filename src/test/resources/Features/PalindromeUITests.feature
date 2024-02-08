@@ -22,4 +22,4 @@ Feature: UI End-to-End tests for the ReactJS web app
     Given user passes a number "123456879526" in the text box
     When clicks on Submit
     Then the browser displays error message as "Invalid value passed."
-    And the browser is closed
+    And the browser is closed+
